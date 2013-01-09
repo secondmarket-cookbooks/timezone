@@ -5,6 +5,6 @@ license          "Apache 2.0"
 description      "Configure the system timezone."
 version          "0.0.2"
 
-%w{ ubuntu debian rhel centos scientific amazon }.each do |os|
+%w{ ubuntu debian rhel centos scientific amazon fedora }.each do |os|
   supports os
 end

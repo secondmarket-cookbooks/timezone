@@ -33,11 +33,11 @@ case node['platform_family']
     package "tzdata"
 
     link "/etc/localtime" do
-      to "/usr/share/zoneinfo/#{node[:tz]}"
+      to "/usr/share/zoneinfo/#{node['tz']}"
     end
 
     clock = Chef::Util::FileEdit.new("/etc/sysconfig/clock")
-    clock.search_file_replace_line(/^ZONE=.*$/, "ZONE=\"#{node[:tz]}\"")
+    clock.search_file_replace_line(/^ZONE=.*$/, "ZONE=\"#{node['tz']}\"")
     clock.write_file
   end
 end
