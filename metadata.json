@@ -1,0 +1,47 @@
+{
+  "platforms": {
+    "amazon": [
+
+    ],
+    "rhel": [
+
+    ],
+    "debian": [
+
+    ],
+    "ubuntu": [
+
+    ],
+    "centos": [
+
+    ],
+    "scientific": [
+
+    ]
+  },
+  "conflicting": {
+  },
+  "license": "Apache 2.0",
+  "long_description": "",
+  "providing": {
+  },
+  "maintainer": "James Harton",
+  "recipes": {
+  },
+  "replacing": {
+  },
+  "description": "Configure the system timezone on Debian or Ubuntu.",
+  "version": "0.0.2",
+  "maintainer_email": "james@sociable.co.nz",
+  "groupings": {
+  },
+  "attributes": {
+  },
+  "recommendations": {
+  },
+  "name": "timezone",
+  "dependencies": {
+  },
+  "suggestions": {
+  }
+}
